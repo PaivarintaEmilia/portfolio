@@ -1,13 +1,11 @@
-import './App.css'
-import Hero from './components/hero'
+import FrontPage from './pages/frontPage'
 
 function App() {
 
 
   return (
     <>
-      <Hero></Hero>
-
+      <FrontPage></FrontPage>
     </>
   )
 }
