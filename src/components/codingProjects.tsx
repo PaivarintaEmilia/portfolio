@@ -12,7 +12,7 @@ const CodingProjects: React.FC = () => {
         <div className="flex flex-col gap-8 my-24 px-10" id="codingProjects">
             <h1 className="text-4xl font-medium mb-8">Coding Projects</h1>
             {/* Info Container*/}
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid lg:grid-cols-2 gap-10 md:grid-cols-1">
                 {/* Project 1 */}
                 <div className="flex flex-col gap-4" id="backEnd">
                     <h2 className="text-2xl font-normal">Back End | ASP.NET Core</h2>

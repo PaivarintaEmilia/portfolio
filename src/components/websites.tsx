@@ -8,7 +8,7 @@ const Websites: React.FC = () => {
         <div className="flex flex-col gap-8 my-24 px-10" id="websitesAndECommerce">
             <h1 className="text-4xl font-medium mb-7">Websites and e-commerce</h1>
             {/* Info Container*/}
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-12">
                 {/* Item 1 */}
                 <div className="flex flex-col gap-4" id="websites">
                     <h2 className="text-2xl font-normal">Website | Construction machines</h2>

@@ -5,7 +5,8 @@ import Img from "../common/Img";
 const AboutMe: React.FC = () => {
 
     return (
-        <div className="flex flex-row justify-center items-center gap-12 my-24" id="aboutMe">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-12 my-24 px-10" id="aboutMe">
+            
             {/* Text Container */}
             <div className="w-80">
                 <h1 className="text-4xl font-medium mb-7">About Me</h1>
