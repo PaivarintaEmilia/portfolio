@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                         rel="noopener noreferrer"
                     >
                         <Img
-                            source="/icons/gitHub.png"
+                            source="/icons/gitHub.svg"
                             alt="GitHub Icon to navigate GitHub page."
                             className="w-6 h-6 mt-4"
                             id=""
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                         rel="noopener noreferrer"
                     >
                         <Img
-                            source="/icons/linkedIn.png"
+                            source="/icons/linkedIn.svg"
                             alt="Figma Icon to navigate to LinkedIn Profile Page."
                             className="w-6 h-6 mt-4"
                             id=""
