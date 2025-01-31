@@ -5,11 +5,11 @@ import Img from "../common/Img";
 const Websites: React.FC = () => {
 
     return (
-        <div className="flex flex-col gap-8 my-24 px-10" id="websitesAndECommerce">
+        <div className="flex flex-col gap-8 my-24 px-24" id="websitesAndECommerce">
             <h1 className="text-4xl font-medium mb-0">Websites and e-commerce</h1>
             <p className="mb-7">Please note that the structure or appearance of the websites may have changed since the completion of these projects, as clients have the ability to modify their sites. Therefore, the current website may not exactly match the version at the time of the project.</p>
             {/* Info Container*/}
-            <div className="grid lg:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-16">
                 {/* Item 1 */}
                 <div className="flex flex-col gap-4" id="websites">
                     <h2 className="text-2xl font-normal">Website | Construction machines</h2>

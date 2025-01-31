@@ -14,11 +14,11 @@ const FrontPage: React.FC = () => {
             <Hero></Hero>
             <TableOfContent></TableOfContent>
             <CodingProjects></CodingProjects>
-            <hr className="border-t-2 border-customTeal my-4 mx-10"/>
+            <hr className="border-t-2 border-customTeal my-4 mx-24"/>
             <Websites></Websites>
-            <hr className="border-t-2 border-customTeal my-4 mx-10"/>
+            <hr className="border-t-2 border-customTeal my-4 mx-24"/>
             <AboutMe></AboutMe>
-            <hr className="border-t-2 border-customTeal my-4 mx-10"/>
+            <hr className="border-t-2 border-customTeal my-4 mx-24"/>
             <Footer></Footer>
         </div>
     );
